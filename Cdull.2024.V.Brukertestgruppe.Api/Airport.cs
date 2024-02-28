@@ -1,6 +1,4 @@
-﻿using System.Runtime.Intrinsics.X86;
-
-namespace Cdull._2024.V.Brukertestgruppe.Api
+﻿namespace Cdull._2024.V.Brukertestgruppe.API
 {
     public class Airport
     {
