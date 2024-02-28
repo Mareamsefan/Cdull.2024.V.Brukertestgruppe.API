@@ -30,7 +30,7 @@ namespace Cdull._2024.V.Brukertestgruppe.API
 
         public bool TakeOff();
 
-        public string ToString()
+        public override string ToString()
 
         public void OnFlightLeftRunway();
 
