@@ -8,5 +8,18 @@ namespace Cdull._2024.V.Brukertestgruppe.Api
 {
     internal class Runway
     {
-    }
+
+
+        private string RunwayName { get; set; }
+        private bool IsAvailable { get; set; }
+        private int Distance { get; set; }
+        private float Acceleration { get; set; }
+
+
+
+        public bool CheckAvailability();
+
+        public void SetAvailability(bool);
+
+        public string ToString();
 }
