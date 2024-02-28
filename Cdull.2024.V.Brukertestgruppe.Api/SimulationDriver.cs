@@ -4,17 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Cdull._2024.V.Brukertestgruppe.Api
+namespace Cdull._2024.V.Brukertestgruppe.API
 {
-    internal class SimulationDriver
-    {
         internal interface ISimulationDriver;
-
         internal interface Igate;
         internal interface Ifight;
         internal interface IFlightHistory;
         internal interface Iairport; 
 
-
-    }
 }
