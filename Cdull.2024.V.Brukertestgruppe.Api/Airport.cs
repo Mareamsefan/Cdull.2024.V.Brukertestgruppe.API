@@ -11,10 +11,7 @@
 
         public void ConfigurateAirPort(List<Gate> gates, List<Runway> runways, List<Taxiway> taxiways);
 
-        public override string ToString()
-        {
-            return null;
-        }
+        public override string ToString();
 
 
 
