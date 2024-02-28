@@ -8,5 +8,13 @@ namespace Cdull._2024.V.Brukertestgruppe.Api
 {
     internal class SimulationDriver
     {
+        internal interface ISimulationDriver;
+
+        internal interface Igate;
+        internal interface Ifight;
+        internal interface IFlightHistory;
+        internal interface Iairport; 
+
+
     }
 }

@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Cdull._2024.V.Brukertestgruppe.Api
 {
-    internal class Drive
+    internal class TimeSteppedDriver : ISimulationDriver
     {
+        internal int Run(int distance, float acceleration); 
+
     }
 }
