@@ -16,6 +16,6 @@ namespace Cdull._2024.V.Brukertestgruppe.API
 
         public void AddConnectedGate(string TaxiwayName);
 
-        public string ToString();
+        public override string ToString();
     }
 }

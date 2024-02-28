@@ -20,6 +20,6 @@ namespace Cdull._2024.V.Brukertestgruppe.API
 
         public List<string> GetFlightHistory(string FlightNumber);
 
-        public string ToString();
+        public override string ToString();
     }
 }
