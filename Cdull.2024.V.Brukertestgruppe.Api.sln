@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cdull.2024.V.Brukertestgruppe.Api", "Cdull.2024.V.Brukertestgruppe.Api\Cdull.2024.V.Brukertestgruppe.Api.csproj", "{CDF45DA6-3AC6-472B-AD9B-15B0C12F5A97}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cdull.2024.V.Brukertestgruppe.API", "Cdull.2024.V.Brukertestgruppe.Api\Cdull.2024.V.Brukertestgruppe.API.csproj", "{CDF45DA6-3AC6-472B-AD9B-15B0C12F5A97}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
