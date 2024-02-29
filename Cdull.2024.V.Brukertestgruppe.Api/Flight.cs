@@ -12,8 +12,8 @@ namespace Cdull._2024.V.Brukertestgruppe.API
         private string AircraftType { get; set; }
         private DateTime DepartureTime { get; set; }
         private bool Recurring { get; set; }
-        private List<Gate> GatesUsed { get; set; } = new List<Gate>();
-        private List<Runway> RunwaysUsedBy { get; set; } = new List<Runway>();
+        private List<string> GatesUsed { get; set; } = new List<string>();
+        private List<string> RunwaysUsedBy { get; set; } = new List<string>();
 
 
 
