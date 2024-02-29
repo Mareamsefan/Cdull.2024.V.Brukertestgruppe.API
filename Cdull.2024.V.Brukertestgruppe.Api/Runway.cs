@@ -22,4 +22,5 @@ namespace Cdull._2024.V.Brukertestgruppe.API
         public void SetAvailability(bool);
 
         public override string ToString();
+    }
 }
