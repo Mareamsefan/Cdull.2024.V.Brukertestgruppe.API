@@ -16,9 +16,9 @@ namespace Cdull._2024.V.Brukertestgruppe.API
         private List<History> allFlightHistories;
         public History(string FlightNumber, List<string> UsedGates, List<string> UsedRunways, DateTime TimeStamps);
 
-        public void CreateFlightHistory(string FlightNumber, List<string> UsedGates, List<string> UsedRunways, DateTime TimeStamps); 
+        public void SavePlaneHistory(string FlightNumber, List<string> UsedGates, List<string> UsedRunways, DateTime TimeStamps); 
 
-        public List<string> GetFlightHistory(string FlightNumber);
+        public List<string> GetPlaneHistory(string FlightNumber);
 
         public string ToString();
     }

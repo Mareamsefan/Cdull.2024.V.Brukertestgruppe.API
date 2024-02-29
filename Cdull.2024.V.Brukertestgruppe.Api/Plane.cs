@@ -9,11 +9,12 @@ namespace Cdull._2024.V.Brukertestgruppe.API
     internal class Plane
     {
         private string FlightNumber {  get; set; }
-        private string AircraftType { get; set; }
         private DateTime DepartureTime { get; set; }
-        private bool Recurring { get; set; }
-        private List<string> GatesUsed { get; set; } = new List<string>();
-        private List<string> RunwaysUsedBy { get; set; } = new List<string>();
+        private bool IsFlightRecurring { get; set; }
+        private float Acceleration { get; set; }
+        private List<string> UsedGates { get; set; } = new List<string>();
+        private List<string> UsedRunways { get; set; } = new List<string>();
+
 
 
 
@@ -21,19 +22,38 @@ namespace Cdull._2024.V.Brukertestgruppe.API
         public Plane();
 
         public event EventHandler<FlightEvent> FlightLeftRunwayEventTriggered;
-
-        public bool AssignGate(List<Gate>);
+        public void AssignGate();
+        public void AssignRunway();
+        
+        public bool IsPlaneAssignedToGate(List<Gate>);
        
-        public bool AssignRunway(List<Runway>);
+        public bool IsPlaneAssignedToRunway(List<Runway>);
 
-        public bool AssignTaxiway(List<Taxiway>);
+        public bool IsPlaneAssignedToTaxiway(List<Taxiway>);
 
-        public bool TakeOff();
+        public bool HasPlaneTakenOff();
 
         public override string ToString();
 
-        public void FlightLeavingRunway();
+        public void TakeOff();
 
+        public enum AircraftType
+        {
+            JumboJet,
+            CargoAirplane,
+            Widebody,
+            Narrowbody,
+            PrivateJet,
+            HeavyJet,
+            MidsizeJet,
+            LightJet,
+            VeryLightJet,
+            PropellerPlane,
+            AmhibiousPlane,
+            AerobaticPlane,
+            TurbopropPlane
+
+        }
 
 
     }
