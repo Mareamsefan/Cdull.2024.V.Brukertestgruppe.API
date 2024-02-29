@@ -18,7 +18,7 @@ namespace Cdull._2024.V.Brukertestgruppe.API
         private bool IsAircraftTypeAllowed(string aircraftType);
 
 
-        private bool ReserveGate(Flight flight);
+        private bool ReserveGate(Plane flight);
 
 
 

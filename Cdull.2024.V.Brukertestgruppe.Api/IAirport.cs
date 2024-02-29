@@ -4,11 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Cdull._2024.V.Brukertestgruppe.API
+namespace Cdull._2024.V.Brukertestgruppe.Api
 {
-    internal interface ISimulationDriver
+    internal interface IAirport
     {
-
     }
-       
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Cdull._2024.V.Brukertestgruppe.API
 {
-    internal class Flight
+    internal class Plane
     {
         private string FlightNumber {  get; set; }
         private string AircraftType { get; set; }
@@ -18,7 +18,7 @@ namespace Cdull._2024.V.Brukertestgruppe.API
 
 
        
-        public Flight();
+        public Plane();
 
         public event EventHandler<FlightEvent> FlightLeftRunwayEventTriggered;
 
@@ -32,7 +32,8 @@ namespace Cdull._2024.V.Brukertestgruppe.API
 
         public override string ToString();
 
-        public void OnFlightLeftRunway();
+        public void FlightLeavingRunway();
+
 
 
     }
