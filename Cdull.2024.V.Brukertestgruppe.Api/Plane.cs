@@ -8,7 +8,7 @@ namespace Cdull._2024.V.Brukertestgruppe.API
 {
     internal class Plane
     {
-        private string FlightNumber {  get; set; }
+        private string PlaneId {  get; set; }
         private DateTime DepartureTime { get; set; }
         private bool IsFlightRecurring { get; set; }
         private float Acceleration { get; set; }

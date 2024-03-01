@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Cdull._2024.V.Brukertestgruppe.Api
 {
-    internal interface IPlaneHistory
+    internal interface IHistory
     {
     }
 }
