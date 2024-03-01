@@ -10,15 +10,13 @@ namespace Cdull._2024.V.Brukertestgruppe.API
     {
         internal string GateNumber { get; set; }
 
-        internal string AllowedAircraftType { get; set; }
-
-        internal int DistanceToTaxiway { get; set; }
+        internal string AllowedAircraftType { get; }
 
 
         private bool IsAircraftTypeAllowed(string aircraftType);
 
 
-        private bool ReserveGate(Flight flight);
+        private bool IsGateReserved(Plane flight);
 
 
 

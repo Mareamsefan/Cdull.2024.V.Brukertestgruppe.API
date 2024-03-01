@@ -13,14 +13,9 @@ namespace Cdull._2024.V.Brukertestgruppe.API
         private string RunwayName { get; set; }
         private bool IsAvailable { get; set; }
         private int Distance { get; set; }
-        private float Acceleration { get; set; }
 
 
 
-        public bool CheckAvailability();
-
-        public void SetAvailability(bool);
-
+        public bool IsRunwayAvailable();
         public override string ToString();
-    }
 }
